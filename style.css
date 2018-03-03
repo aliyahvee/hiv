@@ -61,13 +61,41 @@ div.modal div.inner {
 
 .spot {
   position: absolute;
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   background-color: #000000
 }
 
+#dirt {
+  top: 70%;
+  right: 70%;
+  background-color: #d3d3d3;
+}
 
+#man {
+  top: 25%;
+  right: 28%;
+  background-color: #d3d3d3;
+}
+
+#ambulance {
+  top: 25%;
+  right: 45%;
+  background-color: #d3d3d3;
+}
+
+#girl {
+  top: 62%;
+  right: 47%;
+  background-color: #d3d3d3;
+}
+
+#sky {
+  top: 1%;
+  right: 89%;
+  background-color: #d3d3d3;
+}
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
@@ -76,4 +104,29 @@ div.modal div.inner {
 
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+#man {
+      top: 25%;
+      right: 31%;
+      background-color: #d3d3d3;
+    }
+#ambulance {
+      top: 25%;
+      right: 48%;
+      background-color: #d3d3d3;
+    }
+#sky {
+      top: 2%;
+      right: 89%;
+      background-color: #d3d3d3;
+    }
+#dirt {
+      top: 85%;
+      right: 75%;
+      background-color: #d3d3d3;
+    }
+#girl {
+      top: 70%;
+      right: 49%;
+      background-color: #d3d3d3;
+    }
 }
